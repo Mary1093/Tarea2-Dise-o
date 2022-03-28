@@ -531,6 +531,52 @@ p {
 em{
     color: #000;
 }
+
+.homepage .homepage_books-container {
+    padding-bottom: 72px;
+}
+
+.content-section_container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border-top: 7px solid #000;
+}
+.js-fonts-loaded .content-section_container h2 {
+    font-family: "Calibre",Helvetica,Arial,sans-serif;
+}
+
+.content-section_container h2 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0 29px 0;
+    display: block;
+}
+
+.homepage .homepage_books-container .content-list-books, .homepage .homepage_books-container .content-listing-book {
+    padding-bottom: 0;
+}
+
+.homepage .homepage_books-container .content-listing-book {
+    padding-bottom: 0;
+}
+
+.content-listing.content-listing-book {
+    overflow: hidden;
+}
+.content-listing, .content-listing.col {
+    padding-bottom: 50px;
+    position: relative;
+}
+.columns--5x .col {
+    width: 200px;
+}
 @media (min-width: 1279px){
     body:after {
         content: "xlarge";
