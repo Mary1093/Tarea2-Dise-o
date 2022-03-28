@@ -577,6 +577,98 @@ em{
 .columns--5x .col {
     width: 200px;
 }
+
+.homepage .homepage_writers-container {
+    overflow: hidden;
+}
+.content-section, .content-section.columns {
+    padding-bottom: 43px;
+}
+.content-section_container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border-top: 7px solid #000;
+}
+
+.homepage .homepage_featured-writer.col {
+    float: right;
+}
+.col, .col--2x, .col--3x, .col--4x {
+    width: calc(50% - 40px);
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.homepage_featured-writer .content-listing-writer {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.content-listing, .content-listing.col {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.homepage_featured-writer .content-listing-writer .content-listing_img {
+    float: left;
+    width: auto;
+    margin-right: 40px;
+}
+
+.content-listing .content-listing_img, .content-listing .content-listing_tag, .content-listing .content-listing_title, .content-listing.col .content-listing_img, .content-listing.col .content-listing_tag, .content-listing.col .content-listing_title {
+    display: block;
+}
+
+.js-fonts-loaded .content-listing_learn-more {
+    font-family: "Calibre",Helvetica,Arial,sans-serif;
+}
+
+.content-listing_learn-more {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #f42535;
+}
+
+.homepage .homepage_writer-list.col {
+    margin: 0 -20px;
+    width: calc(50% + 40px);
+}
+
+.homepage .homepage_writer-list .content-listing-writer:nth-child(2n+1) {
+    clear: left;
+}
+
+.content-listing, .content-listing.col {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.js-fonts-loaded .content-listing .content-listing_title, .js-fonts-loaded .content-listing.col .content-listing_title {
+    font-family: "Arnhem",Times,Courier,serif;
+}
+
+.content-listing-writer.content-listing-condensed .content-listing_title {
+    margin-bottom: 0;
+}
+
+.content-listing-writer.content-listing-condensed .content-listing_learn-more {
+    line-height: 22px;
+}
+.js-fonts-loaded .content-listing_learn-more {
+    font-family: "Calibre",Helvetica,Arial,sans-serif;
+}
+.content-listing_learn-more {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #f42535;
+}
 @media (min-width: 1279px){
     body:after {
         content: "xlarge";
